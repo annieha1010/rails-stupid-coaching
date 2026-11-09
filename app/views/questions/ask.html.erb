@@ -1,0 +1,7 @@
+<form action="/answer" data-turbo="false" method="get"
+ class="p-3 m-3 d-flex justify-content-center align-items-center" style="border-radius: 15px; background-color: rgba(154, 255, 236, 0.2);">
+  <label class="m-3" for="question">Your question</label>
+  <input class="m-3" type="text" id="question" name="question"
+    value="<%= params[:question] %>">
+  <input type="submit" value="Ask!" class="btn btn-info m-3">
+</form>
